@@ -178,41 +178,34 @@ main {
     padding: 40px 20px;
     margin-top: 194px;
     width: 2000px;
+    max-height: 4000px;
 }
 
 article {
-    max-width: 1200px;
-    margin: 20px auto;
+    max-width: 1000px;
+    margin: 60px auto;
+    margin-right: 500px;
     padding: 40px;
     background: #fff;
-}
-
-
-article p {
-    margin-top: 20px;
-    font-size: 18px;
-    font-weight: 300;
 }
 
 
 /*slider*/
 
 aside{
-    display: inline-block;
     width: 10%;
     min-height: 600px;
-    background-color: #2b2731;
+    background-color: #87789e;
     float: left;
-    margin-left: 10px;
-    
-    text-align: center;
-    
+    margin-left: 10px; 
+    text-align: center;   
+    border: 5px solid rgb(47, 42, 42);
 }
 
 
 .container__slider {
-    width: 90%;
-    max-width: 900px;
+    width: 100%;
+    max-width: 1000px;
     margin: auto;
     overflow: hidden;
     box-shadow: 0 0 0 10px #2b2731,
