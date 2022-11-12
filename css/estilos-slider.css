@@ -8,6 +8,13 @@ body{
     background: #f60642;
 }
 
+
+.aside{
+    width: 100%;
+    height: 100px;
+    margin-top: auto;
+}
+
 .title{
     text-align: center;
     margin-top: 80px;

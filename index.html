@@ -5,64 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Lastony</title>
-    <link rel="stylesheet" href="/Lasttony/css/estilos.css"/>
+    <link rel="stylesheet" href="/css/estilos.css" />
   </head>
+
   <body>
-    <header>
-      <div class="header__superior">
-        <div class="logo">
-          <img src="img/netflix.png" alt="" />
-        </div>
-      </div>
-
-      <div class="container__menu">
-        <div class="menu">
-          <nav>
-            <ul>
-              <li><a href="#">FORO</a></li>
-              <li><a href="#">COMUNIDAD</a></li>
-              <li><a href="#">TIENDA</a></li>
-              <li><a href="#">CONTACTO</a></li>
-            </ul>
-          </nav>
-        </div>
-      </div>
-    </header>
-
-    <main>
-        
-
-    <aside >
-        <div>
-          <marquee bgcolor=#87789e behavior="scroll" direction="left">Barra lateral</marquee>
-        </div>
-    </aside>
-
-    <div class="container__slider">
-      <div class="slider" id="slider">
-        <div class="slider__section">
-          <img src="img/img-1.jpg" alt="" class="slider__img" />
-        </div>
-        <div class="slider__section">
-          <img src="img/img-2.jpg" alt="" class="slider__img" />
-        </div>
-        <div class="slider__section">
-          <img src="img/img-3.jpg" alt="" class="slider__img" />
-        </div>
-        <div class="slider__section">
-          <img src="img/img-1.jpg" alt="" class="slider__img" />
-        </div>
-      </div>
-      <div class="slider__btn slider__btn--right" id="btn-right">&#62</div>
-      <div class="slider__btn slider__btn--left" id="btn-left">&#60</div>
+    <div class="menu">
+      <nav>
+        <ul>
+          <li><a href="" style="text-decoration: none">TIENDA</a></li>
+          <li><a href="" style="text-decoration: none">WIKI</a></li>
+          <li><a href="" style="text-decoration: none">COMUNIDAD</a></li>
+          <img src="/logo.png" id="logo_img" />
+          <li><a href="" style="text-decoration: none">NOSOTROS</a></li>
+          <li><a href="" style="text-decoration: none">SOPORTE</a></li>
+        </ul>
+      </nav>
     </div>
-    <script src="/Lasttony/js/slider.js"></script>
 
-
-    <article>
-      <h2>Descripción</h2>
-    </article>
-
-    </main>
+    <div class="container_slider" id="animado">
+      <div class="container_cards">
+        <input type="radio" name="slider" id="item-1" checked />
+        <input type="radio" name="slider" id="item-2" />
+        <input type="radio" name="slider" id="item-3" />
+        <div class="cards">
+          <label class="card" for="item-1" id="selector-1">
+            <img src="/img/image (1).png" />
+          </label>
+          <label class="card" for="item-2" id="selector-2">
+            <img src="/img/image (2).png" />
+          </label>
+          <label class="card" for="item-3" id="selector-3">
+            <img src="/img/image (3).png" />
+          </label>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
